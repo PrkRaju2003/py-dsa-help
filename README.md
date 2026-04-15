@@ -12,6 +12,8 @@ Most DSA resources skip Python's built-ins entirely. This repo shows you the rig
 py-dsa-help/
 ├── collections/
 │   └── ordered_dict.py     # OrderedDict — all operations + LRU Cache
+├── heapq/
+│   └── heap.py             # heapq — min/max heap operations + Kth Largest
 ```
 
 ---
@@ -23,6 +25,7 @@ py-dsa-help/
 | Tool          | File                                                           | Problem Solved            |
 | ------------- | -------------------------------------------------------------- | ------------------------- |
 | `OrderedDict` | [`collections/ordered_dict.py`](./collections/ordered_dict.py) | LRU Cache (LeetCode #146) |
+| `heapq`       | [`heapq/heap.py`](./heapq/heap.py)                             | Kth Largest (LeetCode #703)|
 
 ---
 
@@ -35,7 +38,6 @@ Libraries planned for future additions:
 | `collections` | `Counter`     | Frequency maps, anagram detection |
 | `collections` | `deque`       | Sliding window, monotonic queue   |
 | `collections` | `defaultdict` | Graph adjacency, grouping         |
-| `heapq`       | —             | Top-K problems, Dijkstra's        |
 | `bisect`      | —             | Binary search on sorted lists     |
 | `functools`   | `lru_cache`   | Memoization / DP                  |
 
