@@ -14,6 +14,8 @@ py-dsa-help/
 │   └── ordered_dict.py     # OrderedDict — all operations + LRU Cache
 ├── heapq/
 │   └── heap.py             # heapq — min/max heap operations + Kth Largest
+├── trie/
+│   └── trie.py             # dict — Trie operations + StreamChecker
 ```
 
 ---
@@ -26,6 +28,7 @@ py-dsa-help/
 | ------------- | -------------------------------------------------------------- | ------------------------- |
 | `OrderedDict` | [`collections/ordered_dict.py`](./collections/ordered_dict.py) | LRU Cache (LeetCode #146) |
 | `heapq`       | [`heapq/heap.py`](./heapq/heap.py)                             | Kth Largest (LeetCode #703)|
+| `dict` (Trie) | [`trie/trie.py`](./trie/trie.py)                               | StreamChecker (LeetCode #1032)|
 
 ---
 
